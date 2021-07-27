@@ -1,0 +1,48 @@
+.banner {
+    max-width: 100%;
+    height: 960px;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .banner-body {
+        color: $color-white;
+    }
+    a:hover {
+        background-color: $color-gray;
+        border-radius: 100%;
+    }
+}
+
+.about {
+    width: 384px;
+    
+}
+
+.avatar {
+    margin-bottom: 20px;
+}
+
+.name {
+    margin-bottom: 4px;
+}
+
+.hr-black {
+    margin-bottom: 28px;
+    background-color: #000000;
+}
+
+.disc {
+    width: 22px;
+    height: 22px;
+    background-color: $color-brown;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.brand {
+    margin-bottom: 12px;
+    .introduce {
+        margin-bottom: 68px;
+    }
+}
